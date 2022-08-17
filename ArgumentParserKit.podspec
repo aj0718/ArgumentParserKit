@@ -8,14 +8,15 @@ Pod::Spec.new do |s|
   s.summary          = 'Type-safe and easy way for parsing command line arguments in your macOS command line tools.'
 
   s.description      = <<-DESC
+          This is fork of https://github.com/crelies/ArgumentParserKit.git 
 					I think the ArgumentParser Apple hides inside their Swift Package Manager deserves more. That's why I extracted the relevant source code into a Pod / Swift package to make it available to a larger audience.
 					The ArgumentParser offers a type-safe and easy way to parse arguments given via the command line to your program. Keep in mind that Apple itself makes clear that you use this private and maybe unstable API at your own risk.
                        DESC
 
-  s.homepage         = 'https://github.com/crelies/ArgumentParserKit'
+  s.homepage         = 'https://github.com/aj0718/ArgumentParserKit'
   s.license          = { :type => 'Apache License v2.0 with Runtime Library Exception', :file => 'LICENSE' }
   s.author           = { 'Apple Inc. and the Swift project authors' => '' }
-  s.source           = { :git => 'https://github.com/crelies/ArgumentParserKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/aj0718/ArgumentParserKit', :tag => s.version.to_s }
 
   s.cocoapods_version = '>= 1.4'
   s.swift_version = '5.1'
